@@ -1,0 +1,43 @@
+.footer {
+    background: var(--secondary-background-color);
+    padding: 60px 0;
+}
+
+.container-position {
+    display: flex;
+    align-items: baseline;
+}
+.position {
+    justify-content: center;
+    align-items: center;
+    min-width: 231px;
+    margin-right: 70px;
+}
+.address {
+    font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.address-location {
+    color: var(--secondary-text-color);
+
+    text-decoration: none;
+}
+
+.footer-contact {
+    color: var(--info-color);
+
+    text-decoration: none;
+
+    transition: color var(--cubic-bezier);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}

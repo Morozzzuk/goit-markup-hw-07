@@ -1,0 +1,32 @@
+.work {
+    padding-top: 0px;
+}
+
+.work-list {
+    display: flex;
+}
+
+.work-list>li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.img-box {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    background-color: var(--label-background-color);
+}

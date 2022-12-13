@@ -1,0 +1,88 @@
+.form-subscribe {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+
+  margin-right: 0;
+  margin-left: auto;
+  min-width: 570px;
+}
+
+.field-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-subscribe {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+
+.input-subscribe {
+  display: block;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  max-width: 358px;
+  min-height: 50px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--secondary-text-color);
+}
+
+.input-subscribe::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 200px;
+  height: 50px;
+  padding: 10px 28px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
+  border-radius: 4px;
+  display: flex;
+  transition: background-color var(--cubic-bezier);
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: blue;
+}
+
+.submit-icon {
+  fill: currentColor;
+  margin-left: 10px;
+}

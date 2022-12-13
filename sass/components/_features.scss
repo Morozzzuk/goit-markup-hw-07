@@ -1,0 +1,27 @@
+.features-list {
+    display: flex;
+}
+
+.feature-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature-svg {
+    background-color: var(--third-background-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.feature-text {
+    color: var(--text-color);
+    max-width: 270px;
+}

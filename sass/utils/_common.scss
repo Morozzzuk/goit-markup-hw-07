@@ -1,0 +1,25 @@
+.list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--main-background-color);
+
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
