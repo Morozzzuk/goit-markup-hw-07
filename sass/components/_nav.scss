@@ -5,10 +5,10 @@
 
 .nav-list {
     display: flex;
-}
 
-.nav-list>li:not(:last-child) {
-    margin-right: 50px;
+    &>li:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
 .nav-link {
@@ -19,16 +19,15 @@
     display: block;
     padding: 32px 0;
     transition: color var(--cubic-bezier);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
+                &.current {
+                    color: var(--accent-color);
+                }
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--accent-color);
-}
-
-.nav-link.current {
-    color: var(--accent-color);
-}
 .current::after {
     content: '';
     position: absolute;
