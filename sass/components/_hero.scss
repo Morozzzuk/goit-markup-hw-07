@@ -1,7 +1,7 @@
 .hero {
     background-color: var(--secondary-background-color);
     padding: 200px 0;
-    &-title {
+    &__title {
             color: var(--secondary-text-color);
             font-weight: 900;
             font-size: 44px;
@@ -15,7 +15,7 @@
             max-width: 696px;
             margin-bottom: 30px;
         }
-                &-btn {
+                &__btn {
                     border: none;
                     color: var(--secondary-text-color);
                     background-color: var(--accent-color);

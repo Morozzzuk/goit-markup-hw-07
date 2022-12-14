@@ -73,13 +73,15 @@ body {
   align-items: center;
 }
 
-.contact-list {
-  display: flex;
+.header-contact {
   margin-left: auto;
-  gap: 50px;
 }
 
-.contact-link {
+.contact__list {
+  display: flex;
+  gap: 50px;
+}
+.contact__link {
   color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
@@ -90,17 +92,12 @@ body {
   align-items: center;
   transition: color var(--cubic-bezier);
 }
-.contact-link:hover, .contact-link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--accent-color);
 }
-
-.contact-icons {
+.contact__icons {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.item {
-  position: relative;
 }
 
 .logo,
@@ -132,7 +129,7 @@ body {
   text-decoration: none;
 }
 
-.site-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -155,11 +152,11 @@ body {
 .site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
-.site-nav__link.current {
+
+.current {
   color: var(--accent-color);
   position: relative;
 }
-
 .current::after {
   content: "";
   position: absolute;
@@ -224,7 +221,7 @@ body {
   background-color: var(--secondary-background-color);
   padding: 200px 0;
 }
-.hero-title {
+.hero__title {
   color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -237,7 +234,7 @@ body {
   max-width: 696px;
   margin-bottom: 30px;
 }
-.hero-btn {
+.hero__btn {
   border: none;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
