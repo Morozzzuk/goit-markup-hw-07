@@ -1,9 +1,9 @@
-.nav {
+.site-nav {
     display: flex;
     align-items: center;
 }
 
-.nav-list {
+.site-nav__list {
     display: flex;
 
     &>li:not(:last-child) {
@@ -11,7 +11,7 @@
     }
 }
 
-.nav-link {
+.site-nav__link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -25,6 +25,7 @@
         }
                 &.current {
                     color: var(--accent-color);
+                    position: relative;
                 }
 }
 
