@@ -176,12 +176,12 @@ body {
 .section {
   padding: var(--main-padding) 0;
 }
-.section-link {
+.section__link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.section-title {
+.section__title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -259,15 +259,15 @@ body {
   background-repeat: no-repeat;
 }
 
-.feature-list {
+.feature__list {
   display: flex;
 }
 
-.feature-item:not(:last-child) {
+.feature__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.feature-svg {
+.feature__icon {
   background-color: var(--third-background-color);
   width: 270px;
   height: 120px;
@@ -277,14 +277,14 @@ body {
   align-items: center;
 }
 
-.feature-title {
+.feature__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.feature-text {
+.feature__text {
   color: var(--text-color);
   max-width: 270px;
 }
@@ -292,18 +292,16 @@ body {
 .work {
   padding-top: 0px;
 }
-.work-list {
+.work__list {
   display: flex;
 }
-.work-list > li:not(:last-child) {
+.work__list > li:not(:last-child) {
   margin-right: 30px;
 }
-
-.img-box {
+.work__box {
   position: relative;
 }
-
-.label {
+.work__label {
   position: absolute;
   bottom: 0;
   padding-top: 27px;
@@ -322,21 +320,21 @@ body {
 .command {
   background-color: #f5f4fa;
 }
-.command-member {
+.command__member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 10px;
 }
-.command-position {
+.command__position {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
 }
-.command-item {
+.command__item {
   background-color: var(--main-background-color);
   flex-basis: calc((100% - 60px) / 3);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -376,28 +374,28 @@ body {
   fill: var(--secondary-text-color);
 }
 
-.command-list {
+.command__list {
   display: flex;
 }
-.command-list-list > li:not(:last-child) {
+.command__list > li:not(:last-child) {
   margin-right: 30px;
 }
 
 .clients {
   background-color: var(--main-background-color);
 }
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.clients-link {
+.clients__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -408,7 +406,7 @@ body {
   border-radius: 4px;
   transition: border-color var(--cubic-bezier), fill var(--cubic-bezier);
 }
-.clients-link:hover, .clients-link:focus, .clients-link:hover .clients-icons, .clients-link:focus .clients-icons {
+.clients__link:hover, .clients__link:focus, .clients__link:hover .clients-icons, .clients__link:focus .clients-icons {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }

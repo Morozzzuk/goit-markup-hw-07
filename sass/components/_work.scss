@@ -1,21 +1,16 @@
 .work {
     padding-top: 0px;
-    &-list {
+    &__list {
             display: flex;
         }
     
-        &-list>li:not(:last-child) {
+    &__list>li:not(:last-child) {
             margin-right: 30px;
         }
-}
-
-
-
-.img-box {
+    &__box {
     position: relative;
 }
-
-.label {
+    &__label {
     position: absolute;
     bottom: 0;
     padding-top: 27px;
@@ -30,4 +25,5 @@
 
     color: #ffffff;
     background-color: var(--label-background-color);
+}
 }

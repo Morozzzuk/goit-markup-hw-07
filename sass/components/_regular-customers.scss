@@ -1,13 +1,13 @@
 .clients {
     background-color: var(--main-background-color);
-    &-list {
+    &__list {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 30px;
         }
     
-        &-item {
+        &__item {
             width: 170px;
             height: 92px;
         }
@@ -15,7 +15,7 @@
 
 
 
-.clients-link {
+.clients__link {
     width: 100%;
     height: 100%;
     display: flex;

@@ -176,12 +176,12 @@ body {
 .section {
   padding: var(--main-padding) 0;
 }
-.section-link {
+.section__link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.section-title {
+.section__title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
