@@ -292,16 +292,17 @@ body {
 .work {
   padding-top: 0px;
 }
-.work__list {
+
+.work-list {
   display: flex;
 }
-.work__list > li:not(:last-child) {
+.work-list > li:not(:last-child) {
   margin-right: 30px;
 }
-.work__box {
+.work-list__box {
   position: relative;
 }
-.work__label {
+.work-list__label {
   position: absolute;
   bottom: 0;
   padding-top: 27px;
