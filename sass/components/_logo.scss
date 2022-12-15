@@ -1,5 +1,4 @@
-.logo,
-.logfoot {
+.logo {
     color: var(--accent-color);
     text-decoration: none;
 
@@ -8,12 +7,10 @@
     font-size: 26px;
     line-height: 1.19;
 }
-
-.logo {
+.header-logo {
     display: flex;
     margin-right: 94px;
 }
-
 .logo-part{
     color: var(--primary-text-color);
     text-decoration: none;
@@ -21,7 +18,7 @@
 .logo-part--secondary-color {
     color: var(--secondary-text-color);
 }
-.logfoot {
+.footer-logo {
     display: block;
     margin-bottom: 20px;
 }
