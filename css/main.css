@@ -433,12 +433,12 @@ body {
 .address {
   font-style: normal;
 }
-.address-list {
+.address__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
-.address-location {
+.address__location {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
