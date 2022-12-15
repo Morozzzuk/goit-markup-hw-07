@@ -318,28 +318,35 @@ body {
   background-color: var(--label-background-color);
 }
 
-.command {
+.card {
   background-color: #f5f4fa;
 }
-.command__member {
+
+.card-list {
+  display: flex;
+}
+.card-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+.card-list__item {
+  background-color: var(--main-background-color);
+  flex-basis: calc((100% - 60px) / 3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.card-list__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 10px;
 }
-.command__position {
+.card-list__position {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
-}
-.command__item {
-  background-color: var(--main-background-color);
-  flex-basis: calc((100% - 60px) / 3);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .user {
@@ -373,13 +380,6 @@ body {
 .command-soc-link:hover, .command-soc-link:focus {
   background-color: var(--accent-color);
   fill: var(--secondary-text-color);
-}
-
-.command__list {
-  display: flex;
-}
-.command__list > li:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients {
