@@ -1,19 +1,22 @@
-.form-subscribe {
+.footer-subscribe {
+  margin-right: 0;
+  margin-left: auto;
+}
+.subscribe__form {
   position: relative;
   display: inline-flex;
   flex-direction: column;
 
-  margin-right: 0;
-  margin-left: auto;
+  
   min-width: 570px;
 }
 
-.field-subscribe {
+.subscribe__field {
   display: flex;
   flex-direction: column;
 }
 
-.label-subscribe {
+.subscribe__label {
   margin-bottom: 20px;
 
   font-size: 14px;
@@ -24,7 +27,7 @@
   color: var(--secondary-text-color);
 }
 
-.input-subscribe {
+.subscribe__input {
   display: block;
   padding: 15px 16px;
   margin-right: 12px;
