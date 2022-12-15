@@ -1,11 +1,9 @@
-.clients {
-    background-color: var(--main-background-color);
-    &__list {
+.logotype-list {
+            background-color: var(--main-background-color);
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 30px;
-        }
     
         &__item {
             width: 170px;
@@ -15,7 +13,7 @@
 
 
 
-.clients__link {
+.logotype-list__link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -28,8 +26,8 @@
     transition: border-color var(--cubic-bezier), fill var(--cubic-bezier);
     &:hover,
     &:focus,
-    &:hover .clients-icons,
-    &:focus .clients-icons {
+    &:hover .logotype-list__icons,
+    &:focus .logotype-list__icons {
             border-color: var(--accent-color);
             fill: var(--accent-color);
         }
