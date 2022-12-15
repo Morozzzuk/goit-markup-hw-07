@@ -117,16 +117,16 @@ body {
 
 .logo-part {
   color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.logo-part--secondary-color {
+  color: var(--secondary-text-color);
 }
 
 .logfoot {
   display: block;
   margin-bottom: 20px;
-}
-
-.logo-item {
-  color: var(--secondary-text-color);
-  text-decoration: none;
 }
 
 .navigation {
