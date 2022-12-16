@@ -1,18 +1,14 @@
-@import './utils/variables';
-@import './base/reset';
-@import'./base/common';
-@import './components/container';
-@import './components/logo';
-@import './components/nav';
-@import './components/section';
-@import './components/social-links';
-@import './components/form-subscribe';
-@import './components/modal';
-@import './components/buttons';
-@import './layouts/header';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/work';
-@import './layout/command';
-@import './layout/regular-customers';
-@import './layout/footer';
+// utils
+@import './utils/module';
+
+// base
+@import './base/module';
+
+// components
+@import './components/module';
+
+// layout
+@import './layout/module';
+
+// pages
+@import './pages/module';

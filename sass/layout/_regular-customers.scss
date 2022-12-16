@@ -1,17 +1,15 @@
 .logotype-list {
-            background-color: var(--main-background-color);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-    
-        &__item {
-            width: 170px;
-            height: 92px;
-        }
+    background-color: var(--main-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-
+.logotype-list__item {
+    width: 170px;
+    height: 92px;
+}
 
 .logotype-list__link {
     width: 100%;

@@ -15,20 +15,18 @@
 }
 .address {
     font-style: normal;
-    &__list {
-            display: flex;
-            flex-direction: column;
-            gap: 9px;
-        }
-    
-        &__location {
-            color: var(--secondary-text-color);
-    
-            text-decoration: none;
-        }
 }
 
+.address__list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
 
+.address__location {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
 
 .footer-contact {
     color: var(--info-color);
